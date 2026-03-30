@@ -1,0 +1,16 @@
+{
+  "workshoptitle": "How-To: LiveLabs Screenshots With Codex",
+  "help": "livelabs-help-db_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "description": "Overview of the screenshot-skill how-to for creating workshop-ready screenshots with Codex.",
+      "filename": "./../../introduction/introduction.md"
+    },
+    {
+      "title": "Lab 1: LiveLabs Screenshots With Codex",
+      "description": "Learn how to use Codex to walk a lab, capture screenshots, annotate images, blur sensitive information, and keep workshop assets aligned with placeholder references.",
+      "filename": "./../../livelabs-screenshots-with-codex/livelabs-screenshots-with-codex.md"
+    }
+  ]
+}

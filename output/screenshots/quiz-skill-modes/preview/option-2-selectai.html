@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Option 2 - FastLab Quiz</title>
+  <style>
+    :root {
+      --bg: #eef4f0;
+      --panel: #fcfffd;
+      --ink: #18241d;
+      --muted: #54655b;
+      --accent: #0f6b4d;
+      --line: #ceded4;
+      --code: #f3faf6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1440px;
+      height: 1100px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at top left, #d7efe4 0, transparent 28%),
+        linear-gradient(180deg, #f9fdfa 0%, var(--bg) 100%);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    .page {
+      padding: 56px 64px;
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      gap: 24px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font: 700 18px/1.2 Arial, sans-serif;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.02;
+      max-width: 900px;
+    }
+    .subhead {
+      color: var(--muted);
+      font: 500 23px/1.4 Arial, sans-serif;
+      max-width: 1170px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 26px 28px;
+      box-shadow: 0 18px 40px rgba(24, 53, 39, 0.08);
+    }
+    .panel h2 {
+      margin: 0 0 8px;
+      font: 700 24px/1.2 Arial, sans-serif;
+    }
+    .panel p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font: 500 18px/1.45 Arial, sans-serif;
+    }
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      background: var(--code);
+      border: 1px solid #dbede3;
+      border-radius: 18px;
+      padding: 18px 20px;
+      color: #213127;
+      font: 15px/1.42 "SFMono-Regular", Menlo, Consolas, monospace;
+    }
+    .note {
+      margin-top: 14px;
+      color: var(--accent);
+      font: 700 16px/1.3 Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="eyebrow">Option 2 Example</div>
+    <div>
+      <h1>FastLab quiz appended in place at the end of the same markdown file</h1>
+      <div class="subhead">The Select AI FastLab keeps the teaching content intact, defines quiz config near the top, then appends a single "Check Your Understanding" section with exactly three scored questions at the end.</div>
+    </div>
+    <section class="panel">
+      <h2>Select AI FastLab pattern</h2>
+      <p>Source: <code>sprints/fastlab/content/selectai/selectai.md</code></p>
+      <pre>```quiz-config
+passing: 75
+badge: images/badge.png
+```
+
+...
+
+## Check Your Understanding
+
+```quiz score
+Q: What is the main benefit of using Select AI for natural language queries?
+* It converts natural language prompts into SQL you can review and run.
+- It generates visualizations without writing any SQL.
+- It automatically builds AI profiles for new schemas.
+> Select AI translates natural language prompts into SQL so you can validate and execute the queries.
+```
+
+```quiz score
+Q: When using the Ask Oracle chatbot with MovieStream data, what should you do before submitting a prompt?
+* Keep the database checkbox selected so prompts query MovieStream tables.
+- Uncheck the database checkbox to chat directly with the LLM.
+- Switch AI profiles after every question to refresh context.
+> The lab directs you to keep the database checkbox enabled so prompts target the MovieStream dataset.
+```
+
+```quiz score
+Q: Which Select AI action reveals the SQL generated for your prompt?
+* showsql displays the SQL statement created by Select AI.
+- narrate produces a conversational explanation of the results.
+- runsql hides the SQL to provide only the final result.
+> The showsql action returns the generated SQL so you can examine it before running the query.
+```</pre>
+      <div class="note">Signal: one end-of-file quiz section, three scored questions, same markdown file.</div>
+    </section>
+  </main>
+</body>
+</html>

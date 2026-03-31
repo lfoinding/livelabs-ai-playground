@@ -1,0 +1,21 @@
+{
+  "workshoptitle": "How-To: LiveLabs AI Playground Skills With Codex",
+  "help": "livelabs-help-db_us@oracle.com",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "description": "Overview of the LiveLabs AI Playground workshop for screenshot capture and quiz-based gamification with Codex.",
+      "filename": "./../../screenshot-skill/introduction/introduction.md"
+    },
+    {
+      "title": "Lab 1: LiveLabs Screenshots With Codex",
+      "description": "Learn how to use Codex to walk a lab, capture screenshots, annotate images, blur sensitive information, and keep workshop assets aligned with placeholder references.",
+      "filename": "./../../screenshot-skill/livelabs-screenshots-with-codex/livelabs-screenshots-with-codex.md"
+    },
+    {
+      "title": "Lab 2: LiveLabs Gamification With Codex",
+      "description": "Learn how to use the livelabs-gamification skill to choose the right quiz mode, prompt Codex clearly, and validate quiz-based checks for a LiveLabs workshop.",
+      "filename": "./../../quiz-skill/quiz-skill.md"
+    }
+  ]
+}

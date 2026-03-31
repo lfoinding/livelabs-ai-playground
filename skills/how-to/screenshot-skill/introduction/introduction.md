@@ -1,26 +1,26 @@
-# Introduction to LiveLabs Screenshots With Codex
+# Introduction to LiveLabs AI Playground Skills
 
-Estimated Workshop Time: 15 minutes
+Estimated Workshop Time: 25 minutes
 
-This workshop shows new authors how to use Codex to create workshop-ready screenshots for Oracle LiveLabs.
+This workshop shows new authors how to use Codex for two common Oracle LiveLabs jobs: screenshot capture and quiz-based gamification.
 
-You will prepare placeholder images in markdown, prompt Codex to walk a lab or console flow, request visual annotations, and keep the final screenshots aligned with LiveLabs conventions.
+You will learn how to prepare workshop-ready screenshots, prompt Codex to follow a lab flow, and add quiz checks without rewriting the teaching content.
 
 ## Introduction
 
-Screen captures often take more time than authors expect.
+LiveLabs authors often need more than one Codex workflow.
 
-The challenge is not only taking the image. You also need the right state, consistent file names, clean redaction, and the correct markdown path.
+You may need screenshots that match the workshop steps, and you may also need quizzes that reinforce the learning without interrupting the hands-on flow.
 
-This workshop gives you a simple process for doing that work with Codex.
+This workshop gives you a simple path for both jobs.
 
 ### Objectives
 
-- understand which Codex skills help with LiveLabs screenshots
-- prepare workshop markdown with placeholder image references
+- understand which Codex skills help with screenshots and gamification
+- prepare workshop markdown with stable image and quiz targets
 - prompt Codex to walk a lab step by step
 - request red boxes, blur rules, and other image edits
-- handle browser flows that change across runs
+- add quiz checks at valid boundaries without changing the teaching flow
 
 ## Learn More
 

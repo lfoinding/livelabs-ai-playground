@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Option 1 - Additional Quiz Lab</title>
+  <style>
+    :root {
+      --bg: #f3efe7;
+      --panel: #fffdf8;
+      --ink: #1d1d1b;
+      --muted: #6a655d;
+      --accent: #a33f10;
+      --line: #d8cfc1;
+      --code: #f7f2e9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1440px;
+      height: 1100px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at top right, #f6d7c4 0, transparent 28%),
+        linear-gradient(180deg, #fbf7f0 0%, var(--bg) 100%);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    .page {
+      padding: 56px 64px;
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      gap: 24px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font: 700 18px/1.2 Arial, sans-serif;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.02;
+      max-width: 860px;
+    }
+    .subhead {
+      color: var(--muted);
+      font: 500 23px/1.4 Arial, sans-serif;
+      max-width: 1160px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.02fr 1.18fr;
+      gap: 24px;
+      min-height: 0;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 26px 28px;
+      box-shadow: 0 18px 40px rgba(68, 47, 21, 0.08);
+    }
+    .panel h2 {
+      margin: 0 0 8px;
+      font: 700 24px/1.2 Arial, sans-serif;
+    }
+    .panel p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font: 500 18px/1.45 Arial, sans-serif;
+    }
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      background: var(--code);
+      border: 1px solid #e4dac9;
+      border-radius: 18px;
+      padding: 18px 20px;
+      color: #2a2925;
+      font: 15px/1.42 "SFMono-Regular", Menlo, Consolas, monospace;
+    }
+    .note {
+      margin-top: 14px;
+      color: var(--accent);
+      font: 700 16px/1.3 Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="eyebrow">Option 1 Example</div>
+    <div>
+      <h1>Additional quiz lab at the end of a signature workshop</h1>
+      <div class="subhead">The upgrade workshop adds a dedicated "Check Your Understanding" lab to the manifest, then stores the scored quiz in its own lab folder with a badge and passing score.</div>
+    </div>
+    <section class="grid">
+      <article class="panel">
+        <h2>Manifest entry</h2>
+        <p>Source: <code>database/hitchhikers-guide-upgrade-to-26ai/workshops/livelabs/manifest.json</code></p>
+        <pre>{
+  "title": "Lab 16: Check Your Understanding",
+  "description": "Review key upgrade concepts with a scored quiz.",
+  "filename": "../../16-check-your-understanding/16-check-your-understanding.md"
+}</pre>
+        <div class="note">Signal: the quiz appears as its own lab at the end of the sequence.</div>
+      </article>
+      <article class="panel">
+        <h2>Dedicated quiz lab</h2>
+        <p>Source: <code>database/hitchhikers-guide-upgrade-to-26ai/16-check-your-understanding/16-check-your-understanding.md</code></p>
+        <pre># Check Your Understanding
+
+```quiz-config
+passing: 75
+badge: images/upgrade-badge.png
+```
+
+## Task 1: Complete the quiz
+
+```quiz score
+Q: Which tool is recommended as the primary method to upgrade
+to Oracle AI Database 26ai?
+- Data Pump
+- SQL*Loader
+* AutoUpgrade
+- RMAN
+> Oracle recommends AutoUpgrade because it automates many
+> upgrade tasks and checks.
+```
+
+```quiz score
+Q: Which database versions support a direct upgrade to Oracle AI
+Database 26ai?
+- 10g and 11g
+- 12c only
+* 19c and 21c
+- 18c only
+> Oracle supports a direct upgrade from 19c and 21c.
+```</pre>
+        <div class="note">Signal: scored quiz blocks live in a separate lab, not inside the teaching labs.</div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

@@ -8,9 +8,9 @@ Use `$livelabs-gamification` when you want Codex to add quiz-based checks to a L
 
 ### Objectives
 
-- understand the three supported quiz modes
-- prompt Codex with the right workshop path and manifest
-- avoid common mistakes when asking for quiz generation
+- Understand the three supported quiz modes
+- Prompt Codex with the right workshop path and manifest
+- Avoid common mistakes when asking for quiz generation
 
 ## Task 1: Choose The Right Quiz Mode
 

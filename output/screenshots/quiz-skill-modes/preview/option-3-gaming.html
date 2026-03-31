@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Option 3 - Distributed Quiz Blocks</title>
+  <style>
+    :root {
+      --bg: #f2f0f8;
+      --panel: #fffefe;
+      --ink: #1d1730;
+      --muted: #5d5671;
+      --accent: #7351b6;
+      --line: #d9d2e9;
+      --code: #f7f4fd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1440px;
+      height: 1100px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at top right, #e7dcff 0, transparent 26%),
+        linear-gradient(180deg, #fcfbff 0%, var(--bg) 100%);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    .page {
+      padding: 52px 58px;
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      gap: 20px;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font: 700 18px/1.2 Arial, sans-serif;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: 50px;
+      line-height: 1.02;
+      max-width: 980px;
+    }
+    .subhead {
+      color: var(--muted);
+      font: 500 22px/1.4 Arial, sans-serif;
+      max-width: 1200px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      min-height: 0;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 22px;
+      box-shadow: 0 18px 40px rgba(59, 39, 96, 0.08);
+    }
+    .panel h2 {
+      margin: 0 0 8px;
+      font: 700 21px/1.25 Arial, sans-serif;
+    }
+    .panel p {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font: 500 16px/1.4 Arial, sans-serif;
+    }
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      background: var(--code);
+      border: 1px solid #e8e0f7;
+      border-radius: 16px;
+      padding: 16px 18px;
+      color: #2b2540;
+      font: 13px/1.38 "SFMono-Regular", Menlo, Consolas, monospace;
+    }
+    .note {
+      margin-top: 10px;
+      color: var(--accent);
+      font: 700 14px/1.3 Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="eyebrow">Option 3 Example</div>
+    <div>
+      <h1>Distributed quiz blocks at conceptual boundaries inside an existing lab</h1>
+      <div class="subhead">The gaming workshop places scored quiz checks after major task summaries instead of creating a separate end lab. This pattern reinforces each concept right after the learner finishes the related section.</div>
+    </div>
+    <section class="grid">
+      <article class="panel">
+        <h2>After Task 2</h2>
+        <p>Source: <code>developer/dev-ai-app-dev-gaming/user-story/user-story.md</code></p>
+        <pre>**Task Summary**
+...
+```quiz score
+Q: What is the primary purpose of AI Vector Search in the tournament management application?
+* To semantically compare tournament requests against historical records and identify patterns
+- To generate PDF documents for player communications
+- To create tournament brackets automatically
+> AI Vector Search compares current requests with historical data to identify patterns.
+```</pre>
+        <div class="note">Signal: quiz appears after the task summary for the first concept boundary.</div>
+      </article>
+      <article class="panel">
+        <h2>After Task 3</h2>
+        <p>Source: <code>developer/dev-ai-app-dev-gaming/user-story/user-story.md</code></p>
+        <pre>**Conclusion**
+...
+```quiz score
+Q: What is the main purpose of Oracle Property Graph in the tournament management system?
+* To visually map relationships between tournament requests, decisions, and player attributes
+- To automatically approve or deny all tournament requests
+- To generate PDF documents for players
+> Property Graph reveals relationships and patterns that are hard to see in flat tables.
+```</pre>
+        <div class="note">Signal: the next concept checkpoint appears after the graph-focused section.</div>
+      </article>
+      <article class="panel">
+        <h2>After Task 4</h2>
+        <p>Source: <code>developer/dev-ai-app-dev-gaming/user-story/user-story.md</code></p>
+        <pre>**Task Summary**
+...
+```quiz score
+Q: What is the key advantage of JSON Duality Views in this tournament application?
+* They allow updating document-style data while synchronizing with relational tables
+- They convert all data to JSON format permanently
+- They eliminate the need for a relational database entirely
+> JSON Duality Views let you update document-style data while preserving relational consistency.
+```</pre>
+        <div class="note">Signal: each quiz stays close to the concept it reinforces.</div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

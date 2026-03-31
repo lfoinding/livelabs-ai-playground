@@ -10,11 +10,11 @@ It also shows how to annotate key UI elements, blur sensitive information, and k
 
 In this lab, you will:
 
-- pick the right Codex skill for the screenshot job
-- prepare workshop markdown with placeholder images
-- prompt Codex to walk a lab and capture the right states
-- request annotations such as red boxes, blur rules, and celebratory overlays
-- handle non-deterministic browser behavior without losing the workflow
+- Pick the right Codex skill for the screenshot job
+- Prepare workshop markdown with placeholder images
+- Prompt Codex to walk a lab and capture the right states
+- Request annotations such as red boxes, blur rules, and celebratory overlays
+- Handle non-deterministic browser behavior without losing the workflow
 
 Estimated Time: 15 minutes
 

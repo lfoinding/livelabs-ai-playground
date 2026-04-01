@@ -38,16 +38,16 @@ Use `$livelabs-gamification` when you want Codex to add quiz-based checks to a L
 
 1. Start with the skill name and the target path:
 
-```text
-$livelabs-gamification create a quiz for /path/to/workshop
-```
+    ```text
+    $livelabs-gamification create a quiz for /path/to/workshop
+    ```
 
 2. If you already know the mode, say it directly:
 
-```text
-$livelabs-gamification create a quiz for /path/to/workshop
-Option 1. Use /path/to/workshop/manifest.json
-```
+    ```text
+    $livelabs-gamification create a quiz for /path/to/workshop
+    Option 1. Use /path/to/workshop/manifest.json
+    ```
 
 3. Include these details in your request:
 
@@ -63,26 +63,26 @@ Option 1. Use /path/to/workshop/manifest.json
 
 1. Use this pattern for `Option 1`:
 
-```text
-$livelabs-gamification create a quiz for /repo/workshops/livelabs
-Option 1. Use /repo/workshops/livelabs/manifest.json.
-Create 5 conceptual questions from the introduction and Labs 1-3 only.
-```
+    ```text
+    $livelabs-gamification create a quiz for /repo/workshops/livelabs
+    Option 1. Use /repo/workshops/livelabs/manifest.json.
+    Create 5 conceptual questions from the introduction and Labs 1-3 only.
+    ```
 
 2. Use this pattern for `Option 2`:
 
-```text
-$livelabs-gamification add a quiz to /repo/fastlab/my-lab.md
-Option 2. Keep it to 3 scored conceptual questions.
-```
+    ```text
+    $livelabs-gamification add a quiz to /repo/fastlab/my-lab.md
+    Option 2. Keep it to 3 scored conceptual questions.
+    ```
 
 3. Use this pattern for `Option 3`:
 
-```text
-$livelabs-gamification create a quiz for /repo/workshop/lab.md
-Option 3. Insert quiz blocks under existing sections, not as a new task.
-Use unscored checks.
-```
+    ```text
+    $livelabs-gamification create a quiz for /repo/workshop/lab.md
+    Option 3. Insert quiz blocks under existing sections, not as a new task.
+    Use unscored checks.
+    ```
 
 ## Task 5: Add Useful Instructions And Avoid Common Mistakes
 

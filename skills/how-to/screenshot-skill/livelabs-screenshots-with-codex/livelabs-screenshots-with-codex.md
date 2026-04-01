@@ -31,11 +31,9 @@ Estimated Time: 15 minutes
     - write a `manifest.md` with URL, viewport, timestamp, and caveats
     - prefer PNG and stable file names
 
-## Task 2: Add Placeholder Images Before Capture
+## Task 2: Add Placeholder Images Before Capture (optional)
 
 1. Draft the workshop markdown with placeholder image references before you ask Codex to collect final screenshots.
-
-2. Use placeholders to make the target file names explicit and stable.
 
 3. Use a pattern like this in the lab markdown:
 
@@ -45,14 +43,25 @@ Estimated Time: 15 minutes
     ![Placeholder for sandbox launch screenshot](images/lab2-task3-run-on-sandbox.png)
     ```
 
-4. Use this workflow because it helps Codex:
+## Task 3: Review Example Screenshots
 
-    - walk the workshop in order
-    - find where screenshots are missing
-    - save final files with names that already match the lab
-    - replace placeholders instead of inventing new names late in the process
+1. Review these sample images from the LiveLabs flow captured for this guide.
 
-## Task 3: Prompt Codex To Walk The Lab
+2. Use them as a reference for the kind of output you can ask Codex to create.
+
+    ![LiveLabs workshop page with the Start button highlighted in red](./images/01-workshop-start-highlighted-800x600.png)
+
+    Start button highlighted.
+
+    ![LiveLabs launch panel with the Run on LiveLabs Sandbox button highlighted in red](./images/02-run-on-sandbox-highlighted-800x600.png)
+
+    Run on LiveLabs Sandbox highlighted.
+
+    ![Quiz completion screenshot with a confetti overlay](./images/03-quiz-success-confetti.png)
+
+    Quiz completion example with confetti added as a celebration overlay.
+
+## Task 4: Prompt Codex To Walk The Lab
 
 1. Give Codex the exact workshop URL, workshop markdown path, and lab or task range whenever you have them.
 
@@ -106,7 +115,7 @@ Estimated Time: 15 minutes
     Save files under output/screenshots/<run-name>/.
     ```
 
-## Task 4: Ask For The Right Image Edits
+## Task 5: Ask For The Right Image Edits
 
 1. Tell Codex exactly what visual edits you want in the same prompt.
 
@@ -143,34 +152,6 @@ Estimated Time: 15 minutes
     Save files under output/screenshots/livelabs-sandbox-flow/.
     ```
 
-## Task 5: Review Example Screenshots
-
-1. Review these sample images from the LiveLabs flow captured for this guide.
-
-2. Use them as a reference for the kind of output you can ask Codex to create.
-
-    ![LiveLabs workshop page with the Start button highlighted in red](./images/01-workshop-start-highlighted-800x600.png)
-
-    Start button highlighted.
-
-    ![LiveLabs launch panel with the Run on LiveLabs Sandbox button highlighted in red](./images/02-run-on-sandbox-highlighted-800x600.png)
-
-    Run on LiveLabs Sandbox highlighted.
-
-    ![Post-launch page with a confetti overlay](./images/03-after-launch-confetti.png)
-
-    Post-launch page with confetti.
-
-3. Expect Codex to report:
-
-    - the lab or task range it followed
-    - the screenshot folder path
-    - the image file names
-    - a `manifest.md`
-    - the result of navigation after important clicks
-    - any blockers such as sign-in redirects, missing selectors, cookie banners, or access errors
-    - any annotations or blur rules it applied
-
 ## Task 6: Handle Non-Deterministic Browser Flows
 
 1. Expect LiveLabs pages, OCI consoles, and sandbox launches to behave differently across runs.
@@ -198,15 +179,7 @@ Estimated Time: 15 minutes
 
 1. After capture, switch to `livelabs-workshop-author` if you want Codex to place the images into workshop content.
 
-2. Keep these rules in place:
-
-    - use lowercase file names with dashes
-    - keep alt text meaningful
-    - place images only where the markdown flow needs them
-    - keep screenshot names stable so later updates do not break references
-    - replace placeholder images rather than inventing new names late in the process
-
-3. Before you finish, confirm this checklist:
+2. Before you finish, confirm this checklist:
 
     - workshop path or lab path
     - exact URL

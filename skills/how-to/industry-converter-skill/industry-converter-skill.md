@@ -23,16 +23,14 @@ Estimated Time: 10 minutes
 
 1. Use `livelabs-industry-converter` when you want Codex to inspect an existing workshop and produce a target-industry version with the same teaching flow.
 
-2. Keep the user prompt simple. The skill is designed to hide the internal grading, checklist, and repair logic from the user.
-
-3. Provide these inputs:
+2. Provide these inputs:
 
     - source workshop path
     - target industry
     - optional company name
     - optional output path
 
-4. Use a prompt like this:
+3. Use a prompt like this:
 
     ```text
     $livelabs-industry-converter convert this workshop to the finance industry.
@@ -41,9 +39,9 @@ Estimated Time: 10 minutes
     Company: Seer Equity
     ```
 
-5. If you omit `Output:`, expect the skill to create a reasonable default under an `industries/<industry-slug>` path beside the source workshop.
+4. If you omit `Output:`, expect the skill to create a reasonable default under an `industries/<industry-slug>` path beside the source workshop.
 
-6. If you omit `Company:`, expect the skill to use a credible generic company instead of over-branding the workshop.
+5. If you omit `Company:`, expect the skill to use a credible generic company instead of over-branding the workshop.
 
 ## Task 2: Let The Skill Handle The Internal Logic
 
@@ -59,8 +57,6 @@ Estimated Time: 10 minutes
     - validate LiveLabs structure and launch flow
     - check for leftover source vocabulary
     - compare the converted workshop back to the source for fidelity
-
-3. Give Codex the minimum inputs needed to start. More prompt detail is not always better if the skill already owns the workflow.
 
 ## Task 3: Know What The Skill Tries To Preserve
 
@@ -108,19 +104,17 @@ Estimated Time: 10 minutes
     - sentence structure should stay close where no domain change was needed
     - SQL and sample code should stay proportionate to the source instead of becoming larger or more custom than necessary
 
-4. Treat this side-by-side review as required. A validator pass alone does not prove fidelity.
-
 ## Task 5: Review Live Server Comparison Screenshots
 
 1. Use the live server screenshots below as a concrete example of what a source-fidelity review looks like.
 
-2. In these comparisons, the finance version is on the left and the original AI World 25 sandbox workshop is on the right.
+2. In these comparisons, the finance version is on the left and the original Oracle AI Database 26ai workshop is on the right.
 
 3. Review the introduction pages side by side:
 
     ![Finance workshop introduction on the left and the AI World 25 source introduction on the right in a live side-by-side browser capture with labels on both titles](./images/01-finance-vs-aiworld-intro-live-desktop.png)
 
-    Side-by-side live server comparison of the introduction pages with labels that mark the finance rewrite and the AI World source.
+    Side-by-side live server comparison of the introduction pages with labels that mark the finance rewrite and the source.
 
 4. Review Lab 1 side by side at the SQL conversion point:
 
@@ -134,32 +128,16 @@ Estimated Time: 10 minutes
 
     This view highlights the domain-specific SQL conversion from patients and appointments to clients and reviews.
 
-6. Use screenshots like these to answer the editorial questions that matter:
-
-    - is the layout still recognizable
-    - are the same sections still present
-    - does the converted version keep the visual teaching flow
-    - did the domain rewrite stay targeted instead of rewriting everything
-
 ## Task 6: Watch For The Common Failure Modes
 
-1. Avoid assuming the conversion is correct just because:
-
-    - the line count looks similar
-    - the image files exist
-    - the validator passes
-
-2. Those checks matter, but they are not enough on their own.
-
-3. Watch for these specific failure modes:
+1. Watch for these specific failure modes:
 
     - content was shortened between steps
     - generic labs were paraphrased without a need
     - screenshots were referenced but not preserved in the right place
-    - repair passes introduced duplicate intro lines or duplicate objective blocks
     - validator-driven edits appended new text instead of merging into the restored source section
 
-4. If you see drift, ask Codex to do a strict side-by-side pass on the affected labs instead of asking for a generic polish pass.
+2. If you see drift, ask Codex to do a strict side-by-side pass on the affected labs instead of asking for a generic polish pass.
 
 ## Task 7: Use Follow-Up Prompts That Fix The Right Thing
 

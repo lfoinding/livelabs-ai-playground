@@ -1,25 +1,25 @@
 {
-  "workshoptitle": "How-To: LiveLabs AI Playground Skills With Codex",
+  "workshoptitle": "How-To: LiveLabs AI Playground for Authors",
   "help": "livelabs-help-db_us@oracle.com",
   "tutorials": [
     {
       "title": "Introduction",
-      "description": "Overview of the LiveLabs AI Playground workshop for screenshot capture and quiz-based gamification with Codex.",
+      "description": "Overview of the LiveLabs AI Playground workshop for agentic authoring workflows that help LiveLabs authors work faster while preserving quality and teaching flow.",
       "filename": "./../../screenshot-skill/introduction/introduction.md"
     },
     {
       "title": "Lab 1: Take Screenshots in Minutes",
-      "description": "Learn how to use Codex to walk a lab, capture screenshots, annotate images, blur sensitive information, and keep workshop assets aligned with placeholder references.",
+      "description": "Learn how to use an agentic screenshot workflow to walk a lab, capture screenshots, annotate images, blur sensitive information, and keep workshop assets aligned with placeholder references.",
       "filename": "./../../screenshot-skill/livelabs-screenshots-with-codex/livelabs-screenshots-with-codex.md"
     },
     {
       "title": "Lab 2: Generate Quizzes in Minutes",
-      "description": "Learn how to use the livelabs-gamification skill to choose the right quiz mode, prompt Codex clearly, and validate quiz-based checks for a LiveLabs workshop.",
+      "description": "Learn how to add quiz-based knowledge checks with an agentic workflow that preserves the teaching content and validates the result.",
       "filename": "./../../quiz-skill/quiz-skill.md"
     },
     {
       "title": "Lab 3: Convert Workshops by Industry in Minutes",
-      "description": "Learn how to use the livelabs-industry-converter skill to create an industry-specific workshop variant, preserve source fidelity, and review the output for drift or duplication.",
+      "description": "Learn how to create an industry-specific workshop variant, preserve source fidelity, and review the output for drift or duplication.",
       "filename": "./../../industry-converter-skill/industry-converter-skill.md"
     }
   ]

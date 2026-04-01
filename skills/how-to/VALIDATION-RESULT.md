@@ -1,6 +1,6 @@
 # LiveLabs Workshop Validation – how-to
 
-Generated on 2026-04-01T06:08:50.094661+00:00
+Generated on 2026-04-01T06:39:50.435519+00:00
 
 ## Structure Check
 - ❌ Issues detected:
@@ -53,7 +53,7 @@ Generated on 2026-04-01T06:08:50.094661+00:00
 ### screenshot-skill/introduction/introduction.md
 - ✅ LiveLabs formatting checks passed.
 - ✍️ Lanham score: 4/5
-  - 4 sentence(s) exceed 20 words; tighten wording.
+  - 6 sentence(s) exceed 20 words; tighten wording.
 
 ### screenshot-skill/livelabs-screenshots-with-codex/livelabs-screenshots-with-codex.md
 - ✅ LiveLabs formatting checks passed.

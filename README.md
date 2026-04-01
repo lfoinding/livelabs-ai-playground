@@ -4,20 +4,23 @@ Estimated Time: 5 minutes
 
 ## Introduction
 
-This repo holds three skill-focused areas for LiveLabs work under `skills/how-to/`. One area teaches authors how to capture workshop-ready screenshots with Codex. One area packages quiz-generation assets for LiveLabs gamification. The third area shows how to convert a workshop into an industry-specific variant while preserving source fidelity.
+This repo is a small playground for LiveLabs author workflows. It brings together a set of reusable examples that show how agentic help can make common author tasks easier, faster, and more fun.
+
+Instead of treating authoring as only markdown editing, this playground focuses on the surrounding work that authors actually do before, during, and after writing: reviewing learner flows, capturing screenshots, adding knowledge checks, adapting workshops for new audiences, and handling other repeatable authoring tasks that benefit from structured agentic help.
+
+The `skills/how-to/` workshop packages those examples into a LiveLabs format so authors can review the flows, reuse the prompt patterns, and build on them over time. The current labs are only the starting point. The workshop is meant to grow as new author workflows are added.
 
 ### Objectives
 
-- identify the three skill areas in the repo
-- find the screenshot workshop entry point
-- find the quiz-skill guide and package
-- find the industry-converter guide
+- identify the main author workflows currently demonstrated in the repo
+- find the workshop entry point under `skills/how-to/`
+- understand where new workflow guides can be added over time
 
 ## Task 1: Review The Repo Layout
 
-1. Use `skills/how-to/screenshot-skill/` for the workshop-style guide on taking LiveLabs screenshots with Codex.
+1. Use `skills/how-to/screenshot-skill/` for the workshop-style guide on taking LiveLabs screenshots.
 
-2. Use `skills/how-to/quiz-skill/` for the quiz-generation guide and packaged skill assets.
+2. Use `skills/how-to/quiz-skill/` for the quiz-generation guide and packaged assets.
 
 3. Use `skills/how-to/industry-converter-skill/` for the workshop-conversion guide and quick-reference README.
 

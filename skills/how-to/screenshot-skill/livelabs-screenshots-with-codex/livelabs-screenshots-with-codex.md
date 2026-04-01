@@ -221,5 +221,6 @@ Estimated Time: 15 minutes
 
 ## Acknowledgements
 
-* **Author** - Linda Foinding, Principal Product Manager, Outbound Product Management
-* **Last Updated By/Date** - Linda Foinding, March 2026
+* **Authors** - Linda Foinding, Principal Product Manager, Outbound Product Management
+* **Contributors** - Kevin Lazarz
+* **Last Updated By/Date** - Linda Foinding, April 2026

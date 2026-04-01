@@ -16,6 +16,11 @@
       "title": "Lab 2: Generate Quizzes in Minutes",
       "description": "Learn how to use the livelabs-gamification skill to choose the right quiz mode, prompt Codex clearly, and validate quiz-based checks for a LiveLabs workshop.",
       "filename": "./../../quiz-skill/quiz-skill.md"
+    },
+    {
+      "title": "Lab 3: Convert Workshops by Industry in Minutes",
+      "description": "Learn how to use the livelabs-industry-converter skill to create an industry-specific workshop variant, preserve source fidelity, and review the output for drift or duplication.",
+      "filename": "./../../industry-converter-skill/industry-converter-skill.md"
     }
   ]
 }

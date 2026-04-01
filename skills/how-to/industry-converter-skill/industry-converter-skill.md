@@ -1,4 +1,4 @@
-# Convert Workshops by Industry in Minutes
+# Turn Features into Customer Outcomes
 
 ## Introduction
 

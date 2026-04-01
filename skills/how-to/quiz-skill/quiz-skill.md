@@ -1,4 +1,4 @@
-# Generate Quizzes in Minutes
+# Add Knowledge Checks in Minutes
 
 ## Introduction
 

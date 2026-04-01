@@ -1,25 +1,30 @@
 {
-  "workshoptitle": "How-To: LiveLabs AI Playground for Authors",
+  "workshoptitle": "How-To: LiveLabs Author Workflows",
   "help": "livelabs-help-db_us@oracle.com",
   "tutorials": [
     {
       "title": "Introduction",
-      "description": "Overview of the LiveLabs AI Playground workshop for agentic authoring workflows that help LiveLabs authors work faster while preserving quality and teaching flow.",
+      "description": "Overview of the LiveLabs playground workshop and the author workflows it packages for workshop creation, screenshots, quiz checks, and industry conversion.",
       "filename": "./../../screenshot-skill/introduction/introduction.md"
     },
     {
-      "title": "Lab 1: Take Screenshots in Minutes",
-      "description": "Learn how to use an agentic screenshot workflow to walk a lab, capture screenshots, annotate images, blur sensitive information, and keep workshop assets aligned with placeholder references.",
+      "title": "Lab 1: From Idea to Publish-Ready in One Flow",
+      "description": "Turn a source article into a draft LiveLabs workshop with a clear lab plan, validator-aligned markdown, and source-faithful learner tasks.",
+      "filename": "./../../workshop-author-skill/create-workshops-from-blog-posts.md"
+    },
+    {
+      "title": "Lab 2: Capture Workshop Images in Minute",
+      "description": "Capture workshop screenshots, annotate key UI states, blur sensitive information, and keep image assets aligned with placeholder references.",
       "filename": "./../../screenshot-skill/livelabs-screenshots-with-codex/livelabs-screenshots-with-codex.md"
     },
     {
-      "title": "Lab 2: Generate Quizzes in Minutes",
-      "description": "Learn how to add quiz-based knowledge checks with an agentic workflow that preserves the teaching content and validates the result.",
+      "title": "Lab 3: Add Knowledge Checks in Minutes",
+      "description": "Add quiz-based knowledge checks without rewriting the teaching content and validate the result.",
       "filename": "./../../quiz-skill/quiz-skill.md"
     },
     {
-      "title": "Lab 3: Convert Workshops by Industry in Minutes",
-      "description": "Learn how to create an industry-specific workshop variant, preserve source fidelity, and review the output for drift or duplication.",
+      "title": "Lab 4: Turn Features into Customer Outcomes",
+      "description": "Create an industry-specific workshop variant, preserve source fidelity, and review the output for drift or duplication.",
       "filename": "./../../industry-converter-skill/industry-converter-skill.md"
     }
   ]

@@ -1,8 +1,8 @@
-# Take Screenshots in Minutes
+# Capture Workshop Images in Minute
 
 ## Introduction
 
-This guide shows new workshop authors how to use Codex to capture LiveLabs screenshots in a real browser.
+This guide shows workshop authors how to use Codex to capture LiveLabs screenshots in a real browser.
 
 It also shows how to annotate key UI elements, blur sensitive information, and keep the final files aligned with workshop markdown.
 

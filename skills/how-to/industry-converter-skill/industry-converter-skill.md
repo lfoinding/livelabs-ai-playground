@@ -187,5 +187,5 @@ Estimated Time: 10 minutes
 
 ## Acknowledgements
 
-* **Author** - Linda Foinding, Principal Product Manager, Outbound Product Management
+* **Author** - Linda Foinding, Principal Product Manager, Database Outbound Product Management
 * **Last Updated By/Date** - Linda Foinding, April 2026

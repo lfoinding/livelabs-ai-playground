@@ -38,5 +38,5 @@ The goal is not to replace authorship. The goal is to make authorship more produ
 
 ## Acknowledgements
 
-* **Author** - Linda Foinding, Principal Product Manager, Outbound Product Management
+* **Author** - Linda Foinding, Principal Product Manager, Outbound Database Product Management
 * **Last Updated By/Date** - Linda Foinding, April 2026

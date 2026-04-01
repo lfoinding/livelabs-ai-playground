@@ -47,5 +47,5 @@ It points you to the full workshop-style lab and summarizes the core capture pat
 
 ## Acknowledgements
 
-* **Author** - Linda Foinding, Principal Product Manager, Outbound Product Management
+* **Author** - Linda Foinding, Principal Product Manager, Outbound Database Product Management
 * **Last Updated By/Date** - Linda Foinding, April 2026

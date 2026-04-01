@@ -10,8 +10,8 @@ It also shows how to annotate key UI elements, blur sensitive information, and k
 
 In this lab, you will:
 
-- Pick the right Codex skill for the screenshot job
-- Prepare workshop markdown with placeholder images
+- Pick the `webpage-screenshot-pipeline` Codex skill for the screenshot job
+- Prepare workshop markdown with placeholder images 
 - Prompt Codex to walk a lab and capture the right states
 - Request annotations such as red boxes, blur rules, and celebratory overlays
 - Handle non-deterministic browser behavior without losing the workflow
@@ -24,12 +24,11 @@ Estimated Time: 15 minutes
 
 2. Follow these capture rules:
 
-    - use a real browser, not `curl`
-    - prefer Chrome DevTools MCP tools when available
-    - fall back to Playwright when the flow needs scripting
-    - save files under `output/screenshots/<run-name>/`
-    - write a `manifest.md` with URL, viewport, timestamp, and caveats
-    - prefer PNG and stable file names
+    - Download the skill to your local directory & unzip
+    - Point codex to the path of the directory & ask it to upload it as a skill
+    - Disconnect from VPN to use the screen capture tool 
+    - Use Chrome DevTools MCP tools & Playwright (codex should do it automatically)
+    - Prefer PNG and stable file names
 
 ## Task 2: Add Placeholder Images Before Capture (optional)
 
@@ -97,7 +96,6 @@ Estimated Time: 15 minutes
     Find the placeholder image references and create the missing screenshots.
     Open the OCI console pages described in each task.
     Fill the fields the learner must fill and capture the states that need visual confirmation.
-    Use 1440x1100.
     Add red boxes around the key controls.
     Blur IPs, tenancy names, user emails, and any visible PII.
     Track all screenshots in output/screenshots/lab2-console-flow/manifest.md.
@@ -109,7 +107,7 @@ Estimated Time: 15 minutes
     $webpage-screenshot-pipeline open <console-url> and follow the workshop task intent, not just the raw text.
     If the UI differs slightly from the lab, adapt and continue.
     Take screenshots for the important checkpoints.
-    Use 1280x900.
+    Use 1280x.
     Add red squares around the key parts of each image.
     Blur any PII.
     Save files under output/screenshots/<run-name>/.
@@ -133,7 +131,7 @@ Estimated Time: 15 minutes
 
     ```text
     $webpage-screenshot-pipeline take 3 screenshots for https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4195
-    Use 1440x1100.
+    Use 800x600.
     Capture:
     1. workshop page with the Start button visible
     2. launch panel with Run on LiveLabs Sandbox visible

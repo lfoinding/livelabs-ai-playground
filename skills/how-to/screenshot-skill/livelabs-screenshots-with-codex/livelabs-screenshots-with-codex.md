@@ -1,4 +1,4 @@
-# LiveLabs Screenshots With Codex
+# Take Screenshots in Minutes
 
 ## Introduction
 

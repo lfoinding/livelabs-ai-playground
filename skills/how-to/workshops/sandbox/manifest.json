@@ -8,12 +8,12 @@
       "filename": "./../../screenshot-skill/introduction/introduction.md"
     },
     {
-      "title": "Lab 1: LiveLabs Screenshots With Codex",
+      "title": "Lab 1: Take Screenshots in Minutes",
       "description": "Learn how to use Codex to walk a lab, capture screenshots, annotate images, blur sensitive information, and keep workshop assets aligned with placeholder references.",
       "filename": "./../../screenshot-skill/livelabs-screenshots-with-codex/livelabs-screenshots-with-codex.md"
     },
     {
-      "title": "Lab 2: LiveLabs Gamification With Codex",
+      "title": "Lab 2: Generate Quizzes in Minutes",
       "description": "Learn how to use the livelabs-gamification skill to choose the right quiz mode, prompt Codex clearly, and validate quiz-based checks for a LiveLabs workshop.",
       "filename": "./../../quiz-skill/quiz-skill.md"
     }

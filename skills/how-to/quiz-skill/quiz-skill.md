@@ -1,4 +1,4 @@
-# LiveLabs Gamification With Codex
+# Generate Quizzes in Minutes
 
 ## Introduction
 

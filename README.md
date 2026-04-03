@@ -4,7 +4,7 @@ Estimated Time: 5 minutes
 
 ## Introduction
 
-This repo is a small playground for LiveLabs author workflows. It brings together reusable examples for common workshop-authoring tasks.
+This repo enables LiveLabs AI Developer author workflows. It brings together reusable examples for common workshop-authoring tasks.
 
 Instead of treating authoring as only markdown editing, this playground focuses on the surrounding work that authors actually do before, during, and after writing: turning source materials into workshop drafts, reviewing learner flows, capturing screenshots, adding knowledge checks, adapting workshops for new audiences, and handling other repeatable authoring tasks.
 

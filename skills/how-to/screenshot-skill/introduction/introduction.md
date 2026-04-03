@@ -1,4 +1,4 @@
-# Introduction to the LiveLabs AI Playground
+# Introduction to LiveLabs AI Developer
 
 Estimated Workshop Time: 25 minutes
 

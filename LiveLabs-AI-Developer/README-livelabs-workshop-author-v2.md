@@ -2,6 +2,11 @@
 
 `livelabs-workshop-author-v2` is a self-contained skill for creating, updating, converting, illustrating, and validating Oracle LiveLabs workshops from source material such as blogs, docs, screenshots, commands, and sample SQL.
 
+Download the latest packaged assets for this repo from the `LiveLabs-AI-Developer/` folder in GitHub:
+
+- repo: `https://github.com/lfoinding/livelabs-ai-playground`
+- assets: `https://github.com/lfoinding/livelabs-ai-playground/tree/main/LiveLabs-AI-Developer`
+
 ## What It Does
 
 - Creates brand-new LiveLabs workshops from source material only

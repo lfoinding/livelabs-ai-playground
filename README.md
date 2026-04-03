@@ -10,6 +10,8 @@ Instead of treating authoring as only markdown editing, this focuses on the surr
 
 The `skills/how-to/` workshop packages those examples into a LiveLabs format so authors can review the flows, reuse the prompt patterns, and build on them over time. The current labs are only the starting point. The workshop is meant to grow as new author workflows are added.
 
+If you want the latest downloadable assets, use the GitHub repo as the source of truth and open the `LiveLabs-AI-Developer/` folder. That folder contains the current packaged skill zips and author-facing docs.
+
 ### Objectives
 
 - identify the main author workflows currently demonstrated in the repo
@@ -30,6 +32,7 @@ The `skills/how-to/` workshop packages those examples into a LiveLabs format so 
 5. Use these paths as the main entry points:
 
     - workshop renderer: `skills/how-to/workshops/sandbox/`
+    - downloadable assets: `LiveLabs-AI-Developer/`
     - workshop-author quick guide: `skills/how-to/workshop-author-skill/livelabs-workshop-author-README.md`
     - workshop-author lab markdown: `skills/how-to/workshop-author-skill/create-workshops-from-blog-posts.md`
     - screenshot lab markdown: `skills/how-to/screenshot-skill/livelabs-screenshots-with-codex/livelabs-screenshots-with-codex.md`
@@ -37,6 +40,11 @@ The `skills/how-to/` workshop packages those examples into a LiveLabs format so 
     - quiz lab markdown: `skills/how-to/quiz-skill/quiz-skill.md`
     - industry converter guide: `skills/how-to/industry-converter-skill/livelabs-industry-converter-README.md`
     - industry converter lab markdown: `skills/how-to/industry-converter-skill/industry-converter-skill.md`
+
+6. Download the latest packaged skills and docs from:
+
+    - GitHub repo: `https://github.com/lfoinding/livelabs-ai-playground`
+    - asset bundle folder: `https://github.com/lfoinding/livelabs-ai-playground/tree/main/LiveLabs-AI-Developer`
 
 ## Acknowledgements
 
